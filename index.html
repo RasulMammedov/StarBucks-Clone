@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Document</title>
 </head>
-<body class="transform transition-transform duration-500 overflow-x-hidden">
+<body class="">
     <div class="w-full bg-white shadow-[0_1px_3px_rgba(0,0,0,0.1),_0_2px_2px_rgba(0,0,0,0.06),_0_0_2px_rgba(0,0,0,0.07)] relative z-50">
         <div class="flex max-md:h-[72px] items-center justify-between m-auto w-[92.607vw]">
             <div class="w-[51px] h-[51px] max-md:w-10 max-md:h-10 mr-10">
@@ -33,7 +33,7 @@
             </div>
         </div>
     </div>
-    <div id="openMenu" class="absolute right-[-80%] flex-nowrap bg-white h-[calc(100vh-72px)] transform transition-all duration-500">
+    <div id="openMenu" class="absolute right-[-80%] flex-nowrap bg-white h-[calc(100vh-72px)] transform transition-all duration-500 z-10">
         <div class="w-full h-full pt-8">
             <div class="pl-8 flex flex-col flex-nowrap">
                 <a href="#" class="text-[24px] text-[#000000DE] py-4">Menu</a>
@@ -48,7 +48,26 @@
             <a class="flex mt-4 gap-3 items-center font-[600] px-6 mr-10 text-[14px] hover:text-[#006241] transform translate duration-200 cursor-pointer"><i class="fa-solid fa-location-dot text-2xl"></i>Find a store</a>  
         </div>
     </div>
-
+    <div id="bg-grad" class="relative z-5 w-full">
+        <div  class="w-full transform transition-all duration-500 my-8">
+            <div class="max-w-[1440px] max-h-[625px] w-full h-[43.403vw] flex mx-auto">
+                <div class="h-full w-[50%] bg-[#32462f] px-12 py-8 flex justify-center items-center">
+                    <div class="text-center text-white">
+                        <h2 class="mb-6 text-[50px] max-lg:text-[28px] font-semibold">The Spring Edit</h2>
+                        <p class="text-[24px] font-semibold">Fresh flavors, familiar joy.</p>
+                        <a class="inline-block" href="#">
+                            <div class="font-bold cursor-pointer border-[.5px] border-white rounded-full w-[148px] h-[35px] mt-8 flex justify-center items-center hover:bg-[#0000001a] transform transition duration-350">
+                                View the menu
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="h-full w-[50%]">
+                    <img class="w-full h-full" src="img/137-97315.webp" alt="#">
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="menu.js"></script>
       
 </body>
