@@ -18,12 +18,12 @@
                     <div id="menu" onclick="toggleMenu()" class="md:hidden mr-4">
                         <svg aria-hidden="true" class="w-6 h-6" focusable="false" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path class="" d="M21,12.9H3c-0.5,0-0.9-0.4-0.9-0.9s0.4-0.9,0.9-0.9h18c0.5,0,0.9,0.4,0.9,0.9S21.5,12.9,21,12.9z"></path><path class="" d="M21,6.9H3C2.5,6.9,2.1,6.5,2.1,6S2.5,5.1,3,5.1h18c0.5,0,0.9,0.4,0.9,0.9S21.5,6.9,21,6.9z"></path><path class="" d="M21,18.9H3c-0.5,0-0.9-0.4-0.9-0.9s0.4-0.9,0.9-0.9h18c0.5,0,0.9,0.4,0.9,0.9S21.5,18.9,21,18.9z"></path><circle cx="50%" cy="50%" fill="transparent" r="75%"></circle></svg>
                     </div>
-                    <div id="nav-static" class="w-full h-[99px] flex justify-between items-center overflow-hidden max-md:hidden">
+                    <div id="nav-static" class="w-full h-full flex justify-between items-center overflow-hidden max-md:hidden">
                         <div class="flex items-center gap-10">
-                            <div class="h-full flex items-center text-default-500 font-bold text-[14px]">
-                                <a href="menu.html" class="uppercase hover:text-[#006241] transform translate duration-200">Menu</a>
-                                <a href="#" class="ml-6 uppercase hover:text-[#006241] transform translate duration-200">Rewards</a>
-                                <a href="#" class="ml-6 uppercase hover:text-[#006241] transform translate duration-200">Gift Cards</a>
+                            <div class="h-[99px] flex items-center text-default-500 font-bold text-[14px]">
+                                <a href="menu.html" class="uppercase hover:text-[#006241] transform translate duration-200 md:h-full flex items-center box-content">Menu</a>
+                                <a href="#" class="ml-6 uppercase hover:text-[#006241] transform translate duration-200 h-full flex items-center">Rewards</a>
+                                <a href="#" class="ml-6 uppercase hover:text-[#006241] transform translate duration-200 h-full flex items-center">Gift Cards</a>
                             </div>
                         </div>
                         <div class="flex items-center">
@@ -172,19 +172,6 @@
                             </ul>
                         </div>
                         <div class="section max-lg:h-[56px] lg:ml-8">
-                            <h2>Careers
-                                <svg aria-hidden="true" class="valign-middle sb-caret-expander__icon ml2 sb-caret-expander--expanded" focusable="false" preserveAspectRatio="xMidYMid meet" style="width:32px;height:32px;overflow:visible;fill:currentColor" viewBox="0 0 24 24"><path d="M5.42384 10.5199C5.15866 10.8381 5.20166 11.311 5.51987 11.5762L11.1998 16.3094C11.6633 16.6957 12.3367 16.6957 12.8002 16.3094L18.4801 11.5762C18.7983 11.311 18.8413 10.8381 18.5762 10.5199C18.311 10.2017 17.8381 10.1587 17.5199 10.4239L12 15.0237L6.48014 10.4239C6.16193 10.1587 5.68901 10.2017 5.42384 10.5199Z"></path></svg>
-                            </h2>
-                            <ul>
-                                <li><a href="#">Culture and Values</a></li>
-                                <li><a href="#">Belonging at Starbucks</a></li>
-                                <li><a href="#">College Achievement Plan</a></li>
-                                <li><a href="#">Alumni Community</a></li>
-                                <li><a href="#">U.S. Careers</a></li>
-                                <li><a href="#">International Careers</a></li>
-                            </ul>
-                        </div>
-                        <div class="section max-lg:h-[56px] lg:ml-8">
                             <h2>Social Impact
                                 <svg aria-hidden="true" class="valign-middle sb-caret-expander__icon ml2 sb-caret-expander--expanded" focusable="false" preserveAspectRatio="xMidYMid meet" style="width:32px;height:32px;overflow:visible;fill:currentColor" viewBox="0 0 24 24"><path d="M5.42384 10.5199C5.15866 10.8381 5.20166 11.311 5.51987 11.5762L11.1998 16.3094C11.6633 16.6957 12.3367 16.6957 12.8002 16.3094L18.4801 11.5762C18.7983 11.311 18.8413 10.8381 18.5762 10.5199C18.311 10.2017 17.8381 10.1587 17.5199 10.4239L12 15.0237L6.48014 10.4239C6.16193 10.1587 5.68901 10.2017 5.42384 10.5199Z"></path></svg>
                             </h2>
@@ -228,6 +215,6 @@
 
 
 
-        <script src="menu.js"></script>
+        <script src="script/main.js"></script>
     </body>
 </html>
