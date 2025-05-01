@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-body {
-    overflow-x: hidden;
-}
+
 #openMenu, #openMenu.open {
     width: 0;
     overflow: hidden;

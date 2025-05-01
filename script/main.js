@@ -1,7 +1,6 @@
 const btn = document.getElementById('menu')
 const nav = document.getElementById('nav')
 const menu = document.getElementById('openMenu')
-const bhGrad = document.getElementById('bg-grad')
 const body = document.querySelector('body')
 
 
@@ -13,8 +12,7 @@ const body = document.querySelector('body')
    
    function toggleMenu() {
        menu.classList.toggle('open')
-       bhGrad.classList.toggle('bg-[#0009]')
-       body.classList.toggle('max-md:overflow-hidden')
+       body.classList.toggle('overflow-hidden')
     }
     
     window.onresize = function() {
@@ -33,7 +31,7 @@ svg.forEach(svg => svg.classList.add('lg:hidden'))
 footerInfo.classList.add('max-lg:flex-col')
 div.forEach((div, index) => {
     if(window.innerWidth < 1056) {
-        div.classList.add('lg:w-[190px]', 'md:w-full', 'relative', 'bg-white', 'max-lg:overflow-hidden', 'translate', 'transition-all', 'duration-500')
+        div.classList.add('lg:w-[190px]', 'md:w-full', 'relative', 'bg-white', 'overflow-clip', 'overflow-hidden', 'translate', 'transition-all', 'duration-500')
         div.onclick = function() {
             ul[index].classList.toggle('top-0')
             const li = this.querySelectorAll('li')

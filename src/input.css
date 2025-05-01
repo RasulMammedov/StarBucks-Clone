@@ -6,4 +6,5 @@
     --breakpoint-xxs: 23.43rem; /* 375px */
     --breakpoint-pda: 81.25rem; /* 1300px */
     --breakpoint-pdb: 64.375rem; /* 1030px */
+    --breakpoint-menuDisplayChange: 64.375rem; /* 1030px */
 }
